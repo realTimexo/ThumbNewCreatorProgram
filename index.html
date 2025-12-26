@@ -1,1 +1,33 @@
-<iframe src="https://form.jotform.com/253596760708065" title="description"></iframe>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Full Screen Form</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            overflow: hidden; /* Verhindert doppelte Scrollbalken */
+        }
+        iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <iframe 
+        src="https://form.jotform.com/253596760708065" 
+        allow="geolocation; microphone; camera; fullscreen" 
+        allowtransparency="true" 
+        allowfullscreen="true">
+    </iframe>
+
+</body>
+</html>
